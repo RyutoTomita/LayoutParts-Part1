@@ -1,2 +1,80 @@
 @charset "UTF-8";
-/* 回答はここから */
+/* 回答はここから 
+-----------------------------*/
+
+/* Q1-1 左右中央寄せ 
+-----------------------------*/
+
+.white-box {
+  display: inline-block;
+  width: 200px;
+  padding: 20px 0;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.align-box {
+  text-align: center;
+}
+
+.text-align {
+  display: inline-block;
+  padding: 10px;
+  background-color: #a4b3e9;
+}
+
+.text-margin {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  width: 90px;
+  background-color: #a4b3e9;
+}
+
+
+/* Q1-2 上下左右中央寄せ 
+-----------------------------*/
+
+.table-box {
+  display: table;
+}
+
+.cell-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-table {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-flex {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+
+.position-box {
+  position: relative;
+}
+
+.text-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #a4b3e9;
+}
